@@ -14,3 +14,11 @@ video{
     padding-top: 5%;
 
 }
+.section-card{
+    padding: 10%;
+}
+.section-card .card{
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
