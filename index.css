@@ -32,6 +32,7 @@ header{
     background: #333;
     font-family: sans-serif;
     background-color: #fffcfc;
+    margin:30px;
     
 }
 
@@ -46,17 +47,26 @@ header{
     background: #f00;
     transition: 0.7s;
 }
+.contenedor-card .cards .icon h6{
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
 
 .contenedor-card .cards:nth-child(1) .icon {
-    background: #e07768;
+    background: #0953ff;
 }
 
 .contenedor-card .cards:nth-child(2) .icon {
-    background: #6eadd4;
+    background: #0af22d;
+    
 }
 
 .contenedor-card .cards:nth-child(3) .icon {
-    background: #4aada9;
+    background: #1249ff;
+}
+.contenedor-card .cards:nth-child(4) .icon {
+    background: #2df00a;
 }
 
 
