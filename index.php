@@ -27,7 +27,7 @@
             <source src="img/radiologia-video.mp4" type="video/mp4">
         </video>-->
 
-    <div class=" info container-fluid  justify-content-around">
+    <div class=" info container-fluid  justify-content-around pt-2" id="inicio">
         <p>
             <?php
                 date_default_timezone_set("America/Lima");
@@ -42,7 +42,7 @@
     <!-- Navigation-->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-ligth shadow-lg p-2 bg-body">
         <div class="container px-5">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.php">
                 <img src="img/LOGO-TOMORAYX.jpg" width="120" height="me-auto" alt="Logo" loading="lazy"
                     style="margin-top: -1px;" />
             </a>
@@ -51,7 +51,7 @@
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php #inicio">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="#doctores">Doctores</a></li>
                     <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
@@ -60,7 +60,7 @@
                         <a class="btn btn-outline-warning px-4 me-sm-3 mb-3" href="#">Intranet</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="btn btn-outline-warning px-4 me-sm-3" href="#">Citas</a>
+                        <a class="btn btn-outline-warning px-4 me-sm-3" href="citas.html">Citas</a>
                     </li>
                 </ul>
             </div>
@@ -68,7 +68,7 @@
     </nav>
 
     <!-- Header-->
-    <header>
+    <header id="inicio">
         <div class="header-container px-5">
             <div class="row gx-5 align-items-center justify-content-center position-relative">
                 <div class="col-lg-8 col-xl-7 col-xxl-6">

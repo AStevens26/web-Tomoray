@@ -11,7 +11,7 @@
         <title>TOMOMORAY</title>
     </head>
     <body>
-        <div class=" info container-fluid  justify-content-around">
+        <div class=" info container-fluid  justify-content-around pt-2">
             <p>
                 <?php
                     date_default_timezone_set("America/Lima");
@@ -44,7 +44,7 @@
                             <a class="btn btn-outline-warning px-4 me-sm-3 mb-3" href="#">Intranet</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="btn btn-outline-warning px-4 me-sm-3" href="#">Citas</a>
+                            <a class="btn btn-outline-warning px-4 me-sm-3" href="citas.html">Citas</a>
                         </li>
                     </ul>
                 </div>
