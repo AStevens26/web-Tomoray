@@ -80,7 +80,7 @@
                             estructura ósea de la mandibula y cabeza...</p>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
                             <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#beneficios">Comencemos</a>
-                            <a class="btn btn-outline-light btn-lg px-4" href="leermas.html">Leer más</a>
+                            <a class="btn btn-outline-light btn-lg px-4" href="leermas.php">Leer más</a>
                         </div>
                     </div>
                 </div>
@@ -92,11 +92,11 @@
     </header>
 
     <!-- Icons Grid-->
-    <section class=" bg-light " id="beneficios">
+    <section class=" container py-5 " id="beneficios">
 
-        <div class="contenedor container">
-            <div class="contenedor-card row">
-                <div class="cards col-lg-3">
+        <div class="contenedor py-5 ">
+            <div class="contenedor-card row justify-content-around">
+                <div class="cards col-lg-3 row justify-content-around">
                     <div class="face face1">
                         <div class="content">
                             <div class="icon">
@@ -116,7 +116,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cards col-lg-3 ">
+                <div class="cards col-lg-3 row justify-content-around">
                     <div class="face face1">
                         <div class="content">
                             <div class="icon">
@@ -136,7 +136,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cards col-lg-3">
+                <div class="cards col-lg-3 row justify-content-around">
                     <div class="face face1">
                         <div class="content">
                             <div class="icon">
@@ -156,7 +156,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cards col-lg-1">
+                <div class="cards col-lg-3 row justify-content-around">
                     <div class="face face1">
                         <div class="content">
                             <div class="icon">

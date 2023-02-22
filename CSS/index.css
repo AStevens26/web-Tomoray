@@ -32,7 +32,7 @@ header{
     background: #333;
     font-family: sans-serif;
     background-color: #fffcfc;
-    margin:30px;
+
     
 }
 
@@ -44,7 +44,6 @@ header{
     right: 0;
     width: 100%;
     height: 100%;
-    background: #f00;
     transition: 0.7s;
 }
 .contenedor-card .cards .icon h6{
